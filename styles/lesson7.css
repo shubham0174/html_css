@@ -1,0 +1,88 @@
+
+img {
+    width: 400px;
+}
+
+.img-1 {
+    border-radius: 20px;
+}
+
+.img-2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.img-3 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.search-bar {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.google-search {
+    padding: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+    width: 300px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+p {
+    font-family: Arial;
+    color: grey;
+}
+
+.email {
+    padding: 10px;
+    width: 370px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 15px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: rgb(52, 52, 216);
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.icon {
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.text{
+    font-size: 18px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.tweet {
+    background-color: rgb(77, 77, 255);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    vertical-align: middle;
+}
