@@ -1,0 +1,210 @@
+
+<!-- 
+ 
+Lesson 3 - hovers, Transitions, shadows
+
+- use same button from previous excersise and add these properties as shown in video
+
+-->
+
+<style>
+
+  .uber {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    width: 140px;
+    transition: opacity 0.5s;
+    cursor: pointer;
+  }
+
+  .uber:hover {
+    opacity: 0.8;
+  }
+
+  .amazon {
+    background-color: yellow;
+    color: black;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .5s;
+  }
+
+  .amazon:hover {
+    background-color: rgb(226, 226, 2);
+  }
+
+  .github {
+    background-color: rgb(1, 207, 46);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow .5s;
+  }
+
+  .github:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+  }
+
+  .bootstrap {
+    background-color: rgb(185, 0, 185);
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color .5s;
+  }
+  
+  .bootstrap:hover {
+    background-color: purple;
+  }
+
+
+  .bootstrap-download {
+    background-color: white;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    width: 120px;
+    border-color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    border-style: solid;
+    transition: background-color .5s,
+      color .5s;
+  }
+
+  .bootstrap-download:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .linkedin {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 240px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    transition: background-color .5s;
+  }
+
+  .linkedin:hover {
+    background-color: rgb(0, 0, 209);
+  }
+
+  .linkedin-save {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-style: solid;
+    transition: background-color .5s,
+      border-width .1s;
+  }
+
+  .linkedin-save:hover {
+    background-color: rgb(227, 227, 255);
+    border-width: 3px;
+  }
+
+  .addtocart {
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .5s
+  }
+
+  .addtocart:hover {
+    background-color: rgb(238, 238, 0);
+  }
+  .addtocart:active {
+    opacity: .8;
+  }
+
+  .buynow {
+    background-color: orange;
+    color: black;
+    width: 140px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .5s;
+  }
+
+  .buynow:hover {
+    background-color: rgb(235, 152, 0);
+  }
+  .buynow:active {
+    opacity: .8;
+  }
+
+  .main {
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+  .discription {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .delivery {
+    font-size: 20px;
+  }
+
+  a:hover {
+    transition: color .2s;
+    color: rgb(128, 83, 0);
+  }
+
+</style>
+
+<button class="uber">Request now</button>
+<button class="amazon">Add to Cart</button>
+<button class="github">Sign up</button>
+<button class="bootstrap">Get Started</button>
+<button class="bootstrap-download">Download</button>
+<button class="linkedin">Apply on company website</button>
+<button class="linkedin-save">Save</button>
+
+<!-- Challenge -->
+
+<a href="https://www.amazon.in/">Back to Amazon</a>
+<p class="main">Nike Black Running Shoes</p>
+<p class="discription">$39 - in stock.</p>
+<p class="delivery">Free delivery tommorow.</p>
+<button class="addtocart">Add to Cart</button>
+<button class="buynow">Buy now</button>
