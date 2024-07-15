@@ -1,0 +1,100 @@
+
+.field,
+.google-bar {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.field {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+
+.text {
+    width: 200px;
+    display: inline-block;
+}
+
+.text,
+.btn {
+    vertical-align: middle;
+}
+
+.icon {
+    display: block;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.google-bar {
+    display: block;
+    width: 600px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    margin-bottom: 100px;
+}
+
+.input,
+.email-input{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.input {
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.email-input{
+    display: block;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.signup {
+    padding: 15px;
+    border-radius: 10px;
+    width: 375px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.uber-input {
+    font-size: 16px;
+    padding: 15px;
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+.schedule-btn,
+.req-btn {
+    padding: 15px;
+    width: 165px;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.req-btn{
+    background-color: black;
+    color: white;
+}
+
+.para {
+    font-size: 40px;
+    font-family: Arial;
+}
