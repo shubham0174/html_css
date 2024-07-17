@@ -1,0 +1,117 @@
+<!-- 
+ 
+Lesson 13 - nested flex -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/lesson13.css">
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="display: flex; justify-content: center;  background-color: pink; width: 100px;">
+            <p style="background-color: black; color: white;">item 1</p>
+        </div>
+    
+        <div style="background-color: yellow; width: 200px;">
+    
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <div style="background-color: blue; width: 100px;">
+        </div>
+    
+        <div style=" background-color: green; width: 200px;">
+            <p style="margin-bottom: 0px; margin-top: 5px;">row1</p>
+            <div style="color: white; display: flex; justify-content: space-between;">
+                <p style="background-color: black; margin-top: 5px;">row2</p>
+                <p style="background-color: black; margin-top: 5px;">row2</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="head">
+            <p style="font-size: 14px; color: rgb(75, 74, 74);" >ALL INBOXES</p>
+        </div>
+        <div class="flex-div">
+            <div style="width: 50px;">
+                <img class="img" src="img/cat.jpg" alt="cat">
+            </div>
+            <div class="about-div">
+                <div style="display: flex; justify-content: space-between;" class="flex2">
+                    <p style="font-weight: bold; margin-bottom: 5px; margin-top: 5px;">Chewy Promotions</p>
+                    <p style="font-size: 14px; color: rgb(85, 84, 84); margin-bottom: 0px; margin-top: 5px;">4:58 PM</p>
+                </div>
+                <div>
+                    <p style="font-size: 15px; font-weight: bold; margin-top: 0px; margin-bottom: 5px;">Biggest sales of the year!</p>
+                </div>
+                <div>
+                    <p style="color: rgb(85, 84, 84); margin-top: 5px; margin-bottom: 5px;">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-div">
+            <div style="width: 50px;">
+                <img class="img" src="img/cat.jpg" alt="cat">
+            </div>
+            <div class="about-div">
+                <div style="display: flex; justify-content: space-between;" class="flex2">
+                    <p style="font-weight: bold; margin-bottom: 5px; margin-top: 5px;">Chewy Promotions</p>
+                    <p style="font-size: 14px; color: rgb(85, 84, 84); margin-bottom: 0px; margin-top: 5px;">4:58 PM</p>
+                </div>
+                <div>
+                    <p style="font-size: 15px; font-weight: bold; margin-top: 0px; margin-bottom: 5px;">Biggest sales of the year!</p>
+                </div>
+                <div>
+                    <p style="color: rgb(85, 84, 84); margin-top: 5px; margin-bottom: 5px;">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-div">
+            <div style="width: 50px;">
+                <img class="img" src="img/cat.jpg" alt="cat">
+            </div>
+            <div class="about-div">
+                <div style="display: flex; justify-content: space-between;" class="flex2">
+                    <p style="font-weight: bold; margin-bottom: 5px; margin-top: 5px;">Chewy Promotions</p>
+                    <p style="font-size: 14px; color: rgb(85, 84, 84); margin-bottom: 0px; margin-top: 5px;">4:58 PM</p>
+                </div>
+                <div>
+                    <p style="font-size: 15px; font-weight: bold; margin-top: 0px; margin-bottom: 5px;">Biggest sales of the year!</p>
+                </div>
+                <div>
+                    <p style="color: rgb(85, 84, 84); margin-top: 5px; margin-bottom: 5px;">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- challenge -->
+
+    <div style="font-family: Arial; display: grid; grid-template-columns: 50px 410px;">
+        <div>
+            <img class="icn" src="img/cat.jpg" alt="cat">
+        </div>
+        <div style="padding-left: 15px;" >
+            <p style="margin: 2px 0px; font-size: 18px; color: rgb(85, 85, 85);"><span style="color: black; font-weight: bold;">supersimple.dev</span> @SuperSimpleDev</p>
+            <p style="font-size: 18px;">What is backend web development? A complete overview. New video is up!</p>
+            
+            <div style="display: grid; grid-template-columns: 120px 260px; border-radius:500px; border-radius: 10px; border-style: solid; border-width: 1px; border-color: grey;">
+                <div style="background-color: grey; border-radius: 10px;">
+
+                </div>
+                <div style="margin-left: -20px; background-color: white; padding-left: 10px;">
+                    <p style="color: rgb(90, 90, 90); font-size: 18px;">youtube.com</p>
+                    <p style="font-size: 18px;">Backend web development - a complete overview (2021)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
